@@ -120,8 +120,8 @@ public class TaxiBackendUtilsTest {
 		List<DriverStatus> drivers = new ArrayList<DriverStatus>();
 		DriverStatus driver1 = new DriverStatus();
 		driver1.setDriverId(1);
-		driver1.setLatitude(0);
-		driver1.setLongitude(0);
+		driver1.setLatitude(0.0);
+		driver1.setLongitude(0.0);
 		drivers.add(driver1);
 		
 		DriverStatus expectedDriver = driver1;
@@ -135,14 +135,14 @@ public class TaxiBackendUtilsTest {
 		List<DriverStatus> drivers = new ArrayList<DriverStatus>();
 		DriverStatus driver1 = new DriverStatus();
 		driver1.setDriverId(1);
-		driver1.setLatitude(10);
-		driver1.setLongitude(9);
+		driver1.setLatitude(10.0);
+		driver1.setLongitude(9.0);
 		drivers.add(driver1);
 		
 		DriverStatus driver2 = new DriverStatus();
 		driver2.setDriverId(2);
-		driver2.setLatitude(10);
-		driver2.setLongitude(12);
+		driver2.setLatitude(10.0);
+		driver2.setLongitude(12.0);
 		drivers.add(driver2);
 		
 		DriverStatus expectedDriver = driver2;

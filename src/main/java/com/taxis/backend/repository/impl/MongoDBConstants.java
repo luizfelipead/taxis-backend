@@ -13,10 +13,16 @@ public class MongoDBConstants {
 	
 	//driver_status
 	public static String DRIVER_STATUS_COLLECTION_NAME = "driver_status";
-	
 	public static String DRIVER_STATUS_AVAILABLE_KEY = "available";
 	public static String DRIVER_STATUS_LATITUDE_KEY = "latitude";
 	public static String DRIVER_STATUS_LONGITUDE_KEY = "longitude";
+	
+	//driver
+	public static String DRIVER_COUNTER_COLLECTION_NAME = "driver_counter";
+	public static String DRIVER_COLLECTION_NAME = "driver";
+	public static String DRIVER_CAR_PLATE_KEY = "car_plate";
+	public static String DRIVER_NAME_KEY = "name";
+	
 
 }
 
