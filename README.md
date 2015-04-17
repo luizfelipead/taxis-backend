@@ -26,7 +26,7 @@ Description: Returns all driver status in a rectangle with center and area given
 
 Request GET /drivers/nearest?latitude=12.3&longitude=14.6&availableOnly=true
 Response Success Example: See GET drivers/status
-Response Error Example: {"statusHTTP":200,"success":false,"message":"No drivers found around this position. 1000.0 degrees^2 was searched."}
+Response Error Example: {"statusHTTP":200,"success":false,"message":"No drivers found around this position. 1000.0 degrees^2 was searched."} <br/>
 Description: search for the nearest driver (available if flag availableOnly is true). Maximum area search: 1000 degrees^2. The search area grows in a geometric progression as it doesnt find drivers.
 
 ##Driver 
