@@ -21,8 +21,6 @@ import com.taxis.backend.service.DriverStatusService;
 @RequestMapping("/drivers")
 public class DriverStatusController { 
 
-	public static double INVALID_POSITION_VALUE = 999;
-
 	Gson gson = new Gson();
 	
 	@Autowired
