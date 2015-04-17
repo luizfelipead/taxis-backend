@@ -14,7 +14,7 @@ Description: Returns a driver status data.
 Request POST /drivers/status?driverId=1&latitude=10.8908&longitude=-170.987&available=true<br/>
 Success Response Example: {"statusHTTP":200,"success":true,"message":""}<br/>
 Error Response Example: {"statusHTTP":400,"success":false,"message":"Invalid latitude/longitude data. Must be between -180 and 180"}<br/>
-Description: Upd<br/>ates if driverId exists or inserts a drive status if it doesn't. All parameters are mandatory.
+Description: Updates if driverId exists or inserts a drive status if it doesn't. All parameters are mandatory.
 
 Request GET /drivers/inArea?sw=-10.8989,8.98098&ne=100.989,64.98283&availableOnly=true<br/>
 Success Response Example: {"statusHTTP":200,"success":true,"message":"","object":[{"driverId":4,"available":true,"latitude":-56.789,"longitude":110.9876},{"driverId":5,"available":false,"latitude":10.987654,"longitude":-10.909087},{"driverId":6,"available":true,"latitude":-120.98283,"longitude":80.9877}]}<br/>
